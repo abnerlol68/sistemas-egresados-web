@@ -28,15 +28,12 @@ html {
       display: flex;
       flex-direction: column;
       align-items: center;
+    }
 
-      form {
-        width: 58%;
-        background: $cl_black;
-        border-radius: 1.8rem;
-        padding: 4rem;
-        display: flex;
-        flex-direction: column;
-      }
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
 }
@@ -53,6 +50,15 @@ html {
   border-radius: 1rem;
 }
 
+.content_form  {
+  width: 58%;
+  background: $cl_black;
+  border-radius: 1.8rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
 .qt {
   margin: 1rem 0;
   padding: 1.5rem 1.5rem;
@@ -62,6 +68,7 @@ html {
   box-shadow: $cl_border 0px 8px 24px;
   border: none;
   border-radius: 1rem;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
 
   label {
     margin: 0.5rem 0;
@@ -156,4 +163,8 @@ html {
 
 .submit_form:hover {
   background: $cl_black2;
+}
+
+.set_visibility_collapse {
+  visibility: collapse;
 }

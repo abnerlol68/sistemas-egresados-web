@@ -1,3 +1,11 @@
 https://docs.google.com/forms/d/e/1FAIpQLSezv0VHCID0WqPAWwahfzH0OOPEIJS8tOevobKu40WS9SbIVg/viewform
 https://www.movieforwindows.com/images/aspect/vertical-output.png
 https://cdn.dribbble.com/users/1597244/screenshots/7064597/dark_form_mockup_4x.png
+https://stackoverflow.com/questions/27900053/css-transition-with-visibility-not-working
+https://developer.mozilla.org/en-US/docs/Web/CSS/visibility
+https://stackoverflow.com/questions/55623138/uncaught-typeerror-cannot-set-property-visibility-of-undefined
+https://developer.mozilla.org/es/docs/Web/API/Element/classList
+https://www.hscripts.com/es/tutoriales/javascript/dom/radio-eventos.php
+https://es.javascript.info/events-change-input
+https://developer.mozilla.org/es/docs/Web/API/HTMLElement
+https://www.youtube.com/watch?v=GUTt0qKUDyU
