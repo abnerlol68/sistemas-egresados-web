@@ -24,4 +24,4 @@ CREATE TABLE answers (
     FOREIGN KEY (fk_implemented_question) REFERENCES implemented_questions(id) ON UPDATE CASCADE ON DELETE RESTRICT
 ) ENGINE=INNODB;
 
--- source ~/Documents/Cuarto-Semestre/sistemas-egresados-web/.sql/setup.sql;
+-- source ~/Documents/Cuarto-Semestre/sistemas-egresados-web/sql/setup.sql;
