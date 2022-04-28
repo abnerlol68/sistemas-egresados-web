@@ -453,7 +453,7 @@
         </div>
   
         <div class="qt" id="qt_3_2_container">
-          <label id="qt_3_2">Cómo egresado(a) has participado en el desarrollo de aplicaciones computacionales creativas e innovadoras: </label>
+          <label id="qt_3_2">Cómo egresado(a) cuando realizas el diseño de aplicaiones computacionales, has aplicado normas y estándares vigentes: </label>
           <div class="res">
             <div>
               <input class="input_radio" type="radio" name="qt_3_2" id="qt_3_2_r_1" value="Si">

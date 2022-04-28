@@ -579,32 +579,37 @@
   
         <!-- Dependent of qt_2_1 -->
         <div class="qt" id="qt_2_21_container">
-          <label id="qt_2_21">Principales limitaciones profesionales técnicas que enfrentas en tu empleo actual: </label>
+          <label id="qt_2_21">Principales limitaciones integrales que enfrentas en tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_1" id="qt_2_21_r_1" value="Diplomado">
-              <label for="qt_2_21_r_1">Diplomado</label>
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_1" id="qt_2_21_r_1" value="Comunicación asertiva">
+              <label for="qt_2_21_r_1">Comunicación asertiva</label>
             </div>
   
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_2" id="qt_2_21_r_2" value="Especialidad">
-              <label for="qt_2_21_r_2">Especialidad</label>
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_2" id="qt_2_21_r_2" value="Toma de decisiones">
+              <label for="qt_2_21_r_2">Toma de decisiones</label>
             </div>
   
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_3" id="qt_2_21_r_3" value="Maestría">
-              <label for="qt_2_21_r_3">Maestría</label>
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_3" id="qt_2_21_r_3" value="Trabajo en equipo">
+              <label for="qt_2_21_r_3">Trabajo en equipo</label>
             </div>
   
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_4" id="qt_2_21_r_4" value="Idiomas">
-              <label for="qt_2_21_r_4">Idiomas</label>
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_4" id="qt_2_21_r_4" value="Habilidades de liderazgo">
+              <label for="qt_2_21_r_4">Habilidades de liderazgo</label>
+            </div>
+
+            <div>
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_5" id="qt_2_21_r_5" value="Seguridad en si mismo">
+              <label for="qt_2_21_r_5">Seguridad en si mismo</label>
             </div>
   
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_5" id="qt_2_21_r_5" value="Otros">
-              <label for="qt_2_21_r_5">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_21_r_5_text" id="qt_2_21_r_5_text" value="">
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_6" id="qt_2_21_r_6" value="Otros">
+              <label for="qt_2_21_r_6">Otros: </label>
+              <input class="input_text" type="text" name="qt_2_21_r_6_text" id="qt_2_21_r_6_text" value="">
             </div>
           </div>
         </div>
@@ -976,7 +981,7 @@
         <span class="section_title">SUPERACIÓN PROFESIONAL Y ACTUALIZACIÓN</span>
   
         <div class="qt" id="qt_5_1_container">
-          <label id="qt_5_1">La satisfacción académica que te brindó el programa educativo ha sido: </label>
+          <label id="qt_5_1">Te gustaria tomar algún curso de actualización: </label>
           <div class="res">
             <div>
               <input class="input_radio" type="radio" name="qt_5_1" id="qt_5_1_r_1" value="Si">

@@ -157,7 +157,8 @@ const qt_2_21_r_2 = document.getElementById('qt_2_21_r_2');
 const qt_2_21_r_3 = document.getElementById('qt_2_21_r_3');
 const qt_2_21_r_4 = document.getElementById('qt_2_21_r_4');
 const qt_2_21_r_5 = document.getElementById('qt_2_21_r_5');
-const qt_2_21_r_5_text = document.getElementById('qt_2_21_r_5_text');
+const qt_2_21_r_6 = document.getElementById('qt_2_21_r_6');
+const qt_2_21_r_6_text = document.getElementById('qt_2_21_r_6_text');
 
 
 /* qt_3 */

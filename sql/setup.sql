@@ -7,7 +7,7 @@ CREATE TABLE forms (
 ) ENGINE=INNODB;
 CREATE TABLE questions (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    description_q VARCHAR(255) NOT NULL,
+    description_q VARCHAR(255) NOT NULL UNIQUE,
     type_q VARCHAR(12)
 ) ENGINE=INNODB;
 CREATE TABLE implemented_questions (
