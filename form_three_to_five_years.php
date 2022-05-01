@@ -29,7 +29,7 @@
           <label id="qt_1_2">Sexo: <span>*</span></label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_2" id="qt_1_2_r_1" value="Femenino">
+              <input class="input_radio" type="radio" name="qt_1_2" id="qt_1_2_r_1" value="Femenino" checked>
               <label for="qt_1_2_r_1">Femenino</label>
             </div>
             <div>
@@ -161,7 +161,7 @@
           <label id="qt_1_10">Grado Académico: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_1" value="Licenciatura">
+              <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_1" value="Licenciatura" checked>
               <label for="qt_1_10_r_1">Licenciatura</label>
             </div>
   
@@ -174,13 +174,10 @@
               <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_3" value="Doctorado">
               <label for="qt_1_10_r_3">Doctorado</label>
             </div>
-  
-            <!-- Nose como capturar este campo xd -->
-            <!-- Tocara investigar -->
+
             <div>
               <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_4" value="Otros">
-              <label for="qt_1_10_r_4">Otros: </label>
-              <input class="input_text" type="text" name="qt_1_10" id="qt_1_10_r_4_text" value="">
+              <label for="qt_1_10_r_4">Otros</label>
             </div>
           </div>
         </div>
@@ -189,7 +186,7 @@
           <label id="qt_1_11">Estado Civil: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_11" id="qt_1_11_r_1" value="Soltero">
+              <input class="input_radio" type="radio" name="qt_1_11" id="qt_1_11_r_1" value="Soltero" checked>
               <label for="qt_1_11_r_1">Soltero</label>
             </div>
   
@@ -216,7 +213,7 @@
           <label id="qt_1_13">Titulado: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_13" id="qt_1_13_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_1_13" id="qt_1_13_r_1" value="Si" checked>
               <label for="qt_1_13_r_1">Si</label>
             </div>
             <div>
@@ -258,7 +255,7 @@
           <label id="qt_2_1">Actualmente te encuentras laborando: <span>*</span></label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_1" id="qt_2_1_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_2_1" id="qt_2_1_r_1" value="Si" checked>
               <label for="qt_2_1_r_1">Si</label>
             </div>
             <div>
@@ -324,7 +321,7 @@
           <label id="qt_2_8">Cuál es tu nivel jerárquico dentro de la empresa: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_8" id="qt_2_8_r_1" value="Operativo">
+              <input class="input_radio" type="radio" name="qt_2_8" id="qt_2_8_r_1" value="Operativo" checked>
               <label for="qt_2_8_r_1">Operativo</label>
             </div>
   
@@ -361,7 +358,7 @@
           </p>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_10" id="qt_2_10_r_1" value="Microempresa (1-30)">
+              <input class="input_radio" type="radio" name="qt_2_10" id="qt_2_10_r_1" value="Microempresa (1-30)" checked>
               <label for="qt_2_10_r_1">Microempresa (1-30)</label>
             </div>
   
@@ -387,7 +384,7 @@
           <label id="qt_2_11">Sector económico al que pertenece tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_11" id="qt_2_11_r_1" value="Primario (Agroindustria, pesquero, minero)">
+              <input class="input_radio" type="radio" name="qt_2_11" id="qt_2_11_r_1" value="Primario (Agroindustria, pesquero, minero)" checked>
               <label for="qt_2_11_r_1">Primario (Agroindustria, pesquero, minero)</label>
             </div>
   
@@ -408,7 +405,7 @@
           <label id="qt_2_12">Régimen al que pertenece tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_12" id="qt_2_12_r_1" value="Público">
+              <input class="input_radio" type="radio" name="qt_2_12" id="qt_2_12_r_1" value="Público" checked>
               <label for="qt_2_12_r_1">Público</label>
             </div>
   
@@ -441,7 +438,7 @@
           <label id="qt_3_1">Cómo egresado(a) has participado en el desarrollo de aplicaciones computacionales creativas e innovadoras: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_1" id="qt_3_1_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_1" id="qt_3_1_r_1" value="Si" checked>
               <label for="qt_3_1_r_1">Si</label>
             </div>
   
@@ -456,7 +453,7 @@
           <label id="qt_3_2">Cómo egresado(a) cuando realizas el diseño de aplicaiones computacionales, has aplicado normas y estándares vigentes: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_2" id="qt_3_2_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_2" id="qt_3_2_r_1" value="Si" checked>
               <label for="qt_3_2_r_1">Si</label>
             </div>
   
@@ -479,7 +476,7 @@
           <label id="qt_3_4">Cómo egresado(a) has participado en el desarrollo de interfaces de atumatización: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_4" id="qt_3_4_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_4" id="qt_3_4_r_1" value="Si" checked>
               <label for="qt_3_4_r_1">Si</label>
             </div>
   
@@ -494,7 +491,7 @@
           <label id="qt_3_5">Cómo egresado(a) has desarrollado sistemas integrales descentralizados, como redes de computadoras, bases de datos distribuidas, sistemas ERP (Como SAO, COMPAQ), etc.: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_5" id="qt_3_5_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_5" id="qt_3_5_r_1" value="Si" checked>
               <label for="qt_3_5_r_1">Si</label>
             </div>
   
@@ -509,7 +506,7 @@
           <label id="qt_3_6">Cómo egresado(a) has aplicado estándares internacionales en la integración de soluciones computacionales: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_6" id="qt_3_6_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_6" id="qt_3_6_r_1" value="Si" checked>
               <label for="qt_3_6_r_1">Si</label>
             </div>
   
@@ -524,7 +521,7 @@
           <label id="qt_3_7">Cómo egresado(a) has tomado cursos de actualización sobre tecnologías y estándares vigentes en el último año: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_7" id="qt_3_7_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_7" id="qt_3_7_r_1" value="Si" checked>
               <label for="qt_3_7_r_1">Si</label>
             </div>
   
@@ -539,7 +536,7 @@
           <label id="qt_3_8">Cómo egresado(a) has hecho uso de modelos y/o herramientas matemáticas para solucionar problemas complejos: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_8" id="qt_3_8_r_1" value="Sí, desarrollo de modelos y/o algoritmos">
+              <input class="input_radio" type="radio" name="qt_3_8" id="qt_3_8_r_1" value="Sí, desarrollo de modelos y/o algoritmos" checked>
               <label for="qt_3_8_r_1">Sí, desarrollo de modelos y/o algoritmos</label>
             </div>
   
@@ -559,7 +556,7 @@
           <label id="qt_3_9">Cómo egresado(a) has desarrollado modelos y/o algoritmos para solucionar problemas de ingeniería: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_9" id="qt_3_9_r_1" value="Sí">
+              <input class="input_radio" type="radio" name="qt_3_9" id="qt_3_9_r_1" value="Sí" checked>
               <label for="qt_3_9_r_1">Sí</label>
             </div>
   
@@ -574,7 +571,7 @@
           <label id="qt_3_10">Cómo egresado(a) has evaluado modelos y/o algoritmos para solucionar problemas de ingeniería: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_10" id="qt_3_10_r_1" value="Sí">
+              <input class="input_radio" type="radio" name="qt_3_10" id="qt_3_10_r_1" value="Sí" checked>
               <label for="qt_3_10_r_1">Sí</label>
             </div>
   
@@ -589,7 +586,7 @@
           <label id="qt_3_11">Sí la organización en la que te desempeñas es propia: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_11" id="qt_3_11_r_1" value="El giro es adecuado a tu perfil de egreso">
+              <input class="input_radio" type="radio" name="qt_3_11" id="qt_3_11_r_1" value="El giro es adecuado a tu perfil de egreso" checked>
               <label for="qt_3_11_r_1">El giro es adecuado a tu perfil de egreso</label>
             </div>
   
@@ -604,7 +601,7 @@
           <label id="qt_3_11">Sí la organización en la que ejerces no es propia, que función desempeñas: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_11" id="qt_3_11_r_1" value="Como líder de proyectos">
+              <input class="input_radio" type="radio" name="qt_3_11" id="qt_3_11_r_1" value="Como líder de proyectos" checked>
               <label for="qt_3_11_r_1">Como líder de proyectos</label>
             </div>
   
@@ -619,7 +616,7 @@
           <label id="qt_3_12">Cómo egresado(a) has presentado artículos, carteles científicos, reportes técnicos o presentaciones electrónicas dentro de tus labores: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_12" id="qt_3_12_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_12" id="qt_3_12_r_1" value="Si" checked>
               <label for="qt_3_12_r_1">Si</label>
             </div>
   
@@ -642,7 +639,7 @@
           <label id="qt_3_14">Cómo egresado(a) has defendido ante audiencias tus propuestas de soluciones tecnológicas: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_14" id="qt_3_14_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_14" id="qt_3_14_r_1" value="Si" checked>
               <label for="qt_3_14_r_1">Si</label>
             </div>
   
@@ -657,7 +654,7 @@
           <label id="qt_3_15">Cómo egresado(a) identificas los valores éticos de la empresa: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_15" id="qt_3_15_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_15" id="qt_3_15_r_1" value="Si" checked>
               <label for="qt_3_15_r_1">Si</label>
             </div>
   
@@ -672,7 +669,7 @@
           <label id="qt_3_16">Cómo egresado(a) participas en el desarrollo de la planeación estratégica dentro los proyectos específicos: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_16" id="qt_3_16_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_16" id="qt_3_16_r_1" value="Si" checked>
               <label for="qt_3_16_r_1">Si</label>
             </div>
   
@@ -687,7 +684,7 @@
           <label id="qt_3_17">Cómo egresado(a) das seguimiento a la planeación estratégica del proyecto que desarrollas y/o implementas: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_17" id="qt_3_17_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_3_17" id="qt_3_17_r_1" value="Si" checked>
               <label for="qt_3_17_r_1">Si</label>
             </div>
   
@@ -704,7 +701,7 @@
           <label id="qt_4_1">Te gustaría tomar algún curso de actualización: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_1" id="qt_4_1_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_1" id="qt_4_1_r_1" value="Si" checked>
               <label for="qt_4_1_r_1">Si</label>
             </div>
   
@@ -727,7 +724,7 @@
           <label id="qt_4_3">Perteneces a alguna Asociación Civil, Cámaras Industriales o Colegios Profesionales: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_3" id="qt_4_3_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_3" id="qt_4_3_r_1" value="Si" checked>
               <label for="qt_4_3_r_1">Si</label>
             </div>
   

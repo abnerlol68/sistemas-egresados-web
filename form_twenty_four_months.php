@@ -29,7 +29,7 @@
           <label id="qt_1_2">Sexo: <span>*</span></label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_2" id="qt_1_2_r_1" value="Femenino">
+              <input class="input_radio" type="radio" name="qt_1_2" id="qt_1_2_r_1" value="Femenino" checked>
               <label for="qt_1_2_r_1">Femenino</label>
             </div>
             <div>
@@ -143,7 +143,7 @@
           <label id="qt_1_10">Titulado: <span>*</span></label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_1_10" id="qt_1_10_r_1" value="Si" checked>
               <label for="qt_1_10_r_1">Si</label>
             </div>
             <div>
@@ -202,7 +202,7 @@
           <label id="qt_2_1">Actividad a la que te dedicas actualmente: <span>*</span></label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_1" id="qt_2_1_r_1" value="Trabajas">
+              <input class="input_radio" type="radio" name="qt_2_1" id="qt_2_1_r_1" value="Trabajas" checked>
               <label for="qt_2_1_r_1">Trabajas</label>
             </div>
   
@@ -228,7 +228,7 @@
           <label id="qt_2_2">Que estudias: </label>
           <div class="res">
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_2_r_1" id="qt_2_2_r_1" value="Diplomado">
+              <input class="input_checkbox" type="checkbox" name="qt_2_2_r_1" id="qt_2_2_r_1" value="Diplomado" checked>
               <label for="qt_2_2_r_1">Diplomado</label>
             </div>
   
@@ -247,12 +247,9 @@
               <label for="qt_2_2_r_4">Idiomas</label>
             </div>
   
-            <!-- Nose como capturar este campo xd -->
-            <!-- Tocara investigar -->
             <div>
               <input class="input_checkbox" type="checkbox" name="qt_2_2_r_5" id="qt_2_2_r_5" value="Otros">
-              <label for="qt_2_2_r_5">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_2_r_5_text" id="qt_2_2_r_5_text" value="">
+              <label for="qt_2_2_r_5">Otros</label>
             </div>
           </div>
         </div>
@@ -262,7 +259,7 @@
           <label id="qt_2_3">Tiempo transcurrido para obtener tu primer empleo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_3" id="qt_2_3_r_1" value="Antes de egresar">
+              <input class="input_radio" type="radio" name="qt_2_3" id="qt_2_3_r_1" value="Antes de egresar" checked>
               <label for="qt_2_3_r_1">Antes de egresar</label>
             </div>
   
@@ -283,7 +280,7 @@
           <label id="qt_2_4">Medio para obtener empleo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_4" id="qt_2_4_r_1" value="Bolsa de trabajo del Instituto">
+              <input class="input_radio" type="radio" name="qt_2_4" id="qt_2_4_r_1" value="Bolsa de trabajo del Instituto" checked>
               <label for="qt_2_4_r_1">Bolsa de trabajo del Instituto</label>
             </div>
   
@@ -301,13 +298,10 @@
               <input class="input_radio" type="radio" name="qt_2_4" id="qt_2_4_r_4" value="Creé mi propia empresa">
               <label for="qt_2_4_r_4">Creé mi propia empresa</label>
             </div>
-  
-            <!-- Nose como capturar este campo xd -->
-            <!-- Tocara investigar -->
+
             <div>
               <input class="input_radio" type="radio" name="qt_2_4" id="qt_2_4_r_5" value="Otros">
-              <label for="qt_2_4_r_5">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_4_r_5_text" id="qt_2_4_r_5_text" value="">
+              <label for="qt_2_4_r_5">Otros</label>
             </div>
           </div>
         </div>
@@ -317,7 +311,7 @@
           <label id="qt_2_5">Antigüedad en el empleo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_5" id="qt_2_5_r_1" value="Menos de un año">
+              <input class="input_radio" type="radio" name="qt_2_5" id="qt_2_5_r_1" value="Menos de un año" checked>
               <label for="qt_2_5_r_1">Menos de un año</label>
             </div>
   
@@ -338,7 +332,7 @@
           <label id="qt_2_6">Cual es la condición de tu empleo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_6" id="qt_2_6_r_1" value="Base">
+              <input class="input_radio" type="radio" name="qt_2_6" id="qt_2_6_r_1" value="Base" checked>
               <label for="qt_2_6_r_1">Base</label>
             </div>
   
@@ -351,13 +345,10 @@
               <input class="input_radio" type="radio" name="qt_2_6" id="qt_2_6_r_3" value="Contrato">
               <label for="qt_2_6_r_3">Contrato</label>
             </div>
-  
-            <!-- Nose como capturar este campo xd -->
-            <!-- Tocara investigar -->
+
             <div>
               <input class="input_radio" type="radio" name="qt_2_6" id="qt_2_6_r_4" value="Otros">
-              <label for="qt_2_6_r_4">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_6_r_4_text" id="qt_2_6_r_4_text" value="">
+              <label for="qt_2_6_r_4">Otros</label>
             </div>
           </div>
         </div>
@@ -422,7 +413,7 @@
           </p>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_13" id="qt_2_13_r_1" value="Microempresa (1-30)">
+              <input class="input_radio" type="radio" name="qt_2_13" id="qt_2_13_r_1" value="Microempresa (1-30)" checked>
               <label for="qt_2_13_r_1">Microempresa (1-30)</label>
             </div>
   
@@ -464,7 +455,7 @@
           <label id="qt_2_16">El área donde laboras es de acuerdo a tu perfil: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_16" id="qt_2_16_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_2_16" id="qt_2_16_r_1" value="Si" checked>
               <label for="qt_2_16_r_1">Si</label>
             </div>
   
@@ -485,7 +476,7 @@
           <label id="qt_2_17">Sector económico al que pertenece tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_17" id="qt_2_17_r_1" value="Primario (Agroindustria, pesquero, minero)">
+              <input class="input_radio" type="radio" name="qt_2_17" id="qt_2_17_r_1" value="Primario (Agroindustria, pesquero, minero)" checked>
               <label for="qt_2_17_r_1">Primario (Agroindustria, pesquero, minero)</label>
             </div>
   
@@ -506,7 +497,7 @@
           <label id="qt_2_18">Régimen al que pertenece tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_18" id="qt_2_18_r_1" value="Público">
+              <input class="input_radio" type="radio" name="qt_2_18" id="qt_2_18_r_1" value="Público" checked>
               <label for="qt_2_18_r_1">Público</label>
             </div>
   
@@ -522,7 +513,7 @@
           <label id="qt_2_19">Idioma extranjero que utilizas en tu trabajo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_2_19" id="qt_2_19_r_1" value="Ninguno">
+              <input class="input_radio" type="radio" name="qt_2_19" id="qt_2_19_r_1" value="Ninguno" checked>
               <label for="qt_2_19_r_1">Ninguno</label>
             </div>
   
@@ -541,12 +532,9 @@
               <label for="qt_2_19_r_4">Alemán</label>
             </div>
   
-            <!-- Nose como capturar este campo xd -->
-            <!-- Tocara investigar -->
             <div>
               <input class="input_radio" type="radio" name="qt_2_19" id="qt_2_19_r_5" value="Otros">
-              <label for="qt_2_19_r_5">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_19_r_5_text" id="qt_2_19_r_5_text" value="">
+              <label for="qt_2_19_r_5">Otros</label>
             </div>
           </div>
         </div>
@@ -556,7 +544,7 @@
           <label id="qt_2_20">Principales limitaciones profesionales técnicas que enfrentas en tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_20_r_1" id="qt_2_20_r_1" value="Falta de conocimientos actualizados">
+              <input class="input_checkbox" type="checkbox" name="qt_2_20_r_1" id="qt_2_20_r_1" value="Falta de conocimientos actualizados" checked>
               <label for="qt_2_20_r_1">Falta de conocimientos actualizados</label>
             </div>
   
@@ -582,7 +570,7 @@
           <label id="qt_2_21">Principales limitaciones integrales que enfrentas en tu empleo actual: </label>
           <div class="res">
             <div>
-              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_1" id="qt_2_21_r_1" value="Comunicación asertiva">
+              <input class="input_checkbox" type="checkbox" name="qt_2_21_r_1" id="qt_2_21_r_1" value="Comunicación asertiva" checked>
               <label for="qt_2_21_r_1">Comunicación asertiva</label>
             </div>
   
@@ -608,8 +596,7 @@
   
             <div>
               <input class="input_checkbox" type="checkbox" name="qt_2_21_r_6" id="qt_2_21_r_6" value="Otros">
-              <label for="qt_2_21_r_6">Otros: </label>
-              <input class="input_text" type="text" name="qt_2_21_r_6_text" id="qt_2_21_r_6_text" value="">
+              <label for="qt_2_21_r_6">Otros</label>
             </div>
           </div>
         </div>
@@ -620,7 +607,7 @@
           <label id="qt_3_1">La eficiencia para realizar las actividades laborales en relación con tu formación ha sido: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_1" id="qt_3_1_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_1" id="qt_3_1_r_1" value="Muy eficiente" checked>
               <label for="qt_3_1_r_1">Muy eficiente</label>
             </div>
   
@@ -645,7 +632,7 @@
           <label id="qt_3_2">Cómo ha sido la relación del trabajo con tu área de formación: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_2" id="qt_3_2_r_1" value="0">
+              <input class="input_radio" type="radio" name="qt_3_2" id="qt_3_2_r_1" value="0" checked>
               <label for="qt_3_2_r_1">0%</label>
             </div>
   
@@ -680,7 +667,7 @@
           <label id="qt_3_3">Calidad de los docentes: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_3" id="qt_3_3_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_3" id="qt_3_3_r_1" value="Muy eficiente" checked>
               <label for="qt_3_3_r_1">Muy eficiente</label>
             </div>
   
@@ -705,7 +692,7 @@
           <label id="qt_3_4">Plan de estudios: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_4" id="qt_3_4_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_4" id="qt_3_4_r_1" value="Muy eficiente" checked>
               <label for="qt_3_4_r_1">Muy eficiente</label>
             </div>
   
@@ -730,7 +717,7 @@
           <label id="qt_3_5">Opotunidad de participar en proyectos de investigación y desarrollo: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_5" id="qt_3_5_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_5" id="qt_3_5_r_1" value="Muy eficiente" checked>
               <label for="qt_3_5_r_1">Muy eficiente</label>
             </div>
   
@@ -755,7 +742,7 @@
           <label id="qt_3_6">Énfasis en la investigación dentro del proceso de aprendizaje: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_6" id="qt_3_6_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_6" id="qt_3_6_r_1" value="Muy eficiente" checked>
               <label for="qt_3_6_r_1">Muy eficiente</label>
             </div>
   
@@ -780,7 +767,7 @@
           <label id="qt_3_7">Infraestructura: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_3_7" id="qt_3_7_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_3_7" id="qt_3_7_r_1" value="Muy eficiente" checked>
               <label for="qt_3_7_r_1">Muy eficiente</label>
             </div>
   
@@ -807,7 +794,7 @@
           <label id="qt_4_1">Cómo calificas tu formación académica con respecto a tu desempeño laboral: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_1" id="qt_4_1_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_4_1" id="qt_4_1_r_1" value="Muy eficiente" checked>
               <label for="qt_4_1_r_1">Muy eficiente</label>
             </div>
   
@@ -832,7 +819,7 @@
           <label id="qt_4_2">La experiencia obtenida a través de la Residencia Profesional ha sido: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_2" id="qt_4_2_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_4_2" id="qt_4_2_r_1" value="Muy eficiente" checked>
               <label for="qt_4_2_r_1">Muy eficiente</label>
             </div>
   
@@ -857,7 +844,7 @@
           <label id="qt_4_3">Cuál ha sido la utilidad de la Residencia Profesional para tu desarrollo laboral y profesional: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_3" id="qt_4_3_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_4_3" id="qt_4_3_r_1" value="Muy eficiente" checked>
               <label for="qt_4_3_r_1">Muy eficiente</label>
             </div>
   
@@ -882,7 +869,7 @@
           <label id="qt_4_4">La satisfacción académica que te brindó el programa educativo ha sido: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_4_4" id="qt_4_4_r_1" value="Muy eficiente">
+              <input class="input_radio" type="radio" name="qt_4_4" id="qt_4_4_r_1" value="Muy eficiente" checked>
               <label for="qt_4_4_r_1">Muy eficiente</label>
             </div>
   
@@ -912,67 +899,67 @@
           <div class="res_tb">
             <div id="qt_4_5_container">
               <label id="qt_4_5">Soy capaz de diseñar, configurar y administrar redes computacionales aplicando las normas y estándares vigentes:</label>
-              <input class="input_radio" type="radio" name="qt_4_5" id="qt_4_5_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_5" id="qt_4_5_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_5" id="qt_4_5_r_2" value="No">
             </div>
   
             <div id="qt_4_6_container">
               <label id="qt_4_6">Soy capaz de desarrollar, implementar y administrar software de sistemas o de aplicación que cumpla con los estándares de calidad con el fin de apoyar la productividad y competitividad de las organizaciones:</label>
-              <input class="input_radio" type="radio" name="qt_4_6" id="qt_4_6_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_6" id="qt_4_6_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_6" id="qt_4_6_r_2" value="No">
             </div>
   
             <div id="qt_4_7_container">
               <label id="qt_4_7">Soy capaz de coordinar y participar en proyectos interdisciplinarios:</label>
-              <input class="input_radio" type="radio" name="qt_4_7" id="qt_4_7_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_7" id="qt_4_7_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_7" id="qt_4_7_r_2" value="No">
             </div>
   
             <div id="qt_4_8_container">
               <label id="qt_4_8">Soy capaz de diseñar e implementar interfaces hombre-máquina y máquina-máquina para la automatización de sistemas:</label>
-              <input class="input_radio" type="radio" name="qt_4_8" id="qt_4_8_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_8" id="qt_4_8_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_8" id="qt_4_8_r_2" value="No">
             </div>
   
             <div id="qt_4_9_container">
               <label id="qt_4_9">Soy capaz de identificar y comprender las tecnologías de hardware para proponer, desarrollar y mantener aplicaciones eficientes:</label>
-              <input class="input_radio" type="radio" name="qt_4_9" id="qt_4_9_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_9" id="qt_4_9_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_9" id="qt_4_9_r_2" value="No">
             </div>
   
             <div id="qt_4_10_container">
               <label id="qt_4_10">Soy capaz de diseñar, desarrollar y administrar bases de datos conforme a requerimientos definidos, normas organizacionales de manejo y seguridad de la información, utilizando tecnologías emergentes:</label>
-              <input class="input_radio" type="radio" name="qt_4_10" id="qt_4_10_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_10" id="qt_4_10_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_10" id="qt_4_10_r_2" value="No">
             </div>
   
             <div id="qt_4_11_container">
               <label id="qt_4_11">Soy capaz de integrar soluciones computacionales con diferentes tecnologías, plataformas o dispositivos:</label>
-              <input class="input_radio" type="radio" name="qt_4_11" id="qt_4_11_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_11" id="qt_4_11_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_11" id="qt_4_11_r_2" value="No">
             </div>
   
             <div id="qt_4_12_container">
               <label id="qt_4_12">Soy capaz de desarrollar una visión empresarial para detectar área de oportunidad que permitan emprender y desarrollar proyectos aplicando las tecnologías de la información y comunicación:</label>
-              <input class="input_radio" type="radio" name="qt_4_12" id="qt_4_12_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_12" id="qt_4_12_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_12" id="qt_4_12_r_2" value="No">
             </div>
   
             <div id="qt_4_13_container">
               <label id="qt_4_13">Soy capaz de desempeñar actividades profesionales considerando los aspectos legales, éticos, sociales y de desarrollo sustentable:</label>
-              <input class="input_radio" type="radio" name="qt_4_13" id="qt_4_13_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_13" id="qt_4_13_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_13" id="qt_4_13_r_2" value="No">
             </div>
   
             <div id="qt_4_14_container">
               <label id="qt_4_14">Soy capaz de poseer habilidades metodológicas de investigación que fortalezcan el desarrollo cultural, científico y tecnológico en el ámbito de sistemas computacionales y disciplinas afines:</label>
-              <input class="input_radio" type="radio" name="qt_4_14" id="qt_4_14_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_14" id="qt_4_14_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_14" id="qt_4_14_r_2" value="No">
             </div>
   
             <div id="qt_4_15_container">
               <label id="qt_4_15">Soy capaz de seleccionar y aplicar herramientas matemáticas para el modelado, diseño y desarrollo de tecnología computacional:</label>
-              <input class="input_radio" type="radio" name="qt_4_15" id="qt_4_15_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_4_15" id="qt_4_15_r_1" value="Si" checked>
               <input class="input_radio" type="radio" name="qt_4_15" id="qt_4_15_r_2" value="No">
             </div>
           </div>
@@ -984,7 +971,7 @@
           <label id="qt_5_1">Te gustaria tomar algún curso de actualización: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_5_1" id="qt_5_1_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_5_1" id="qt_5_1_r_1" value="Si" checked>
               <label for="qt_5_1_r_1">Si</label>
             </div>
   
@@ -1007,7 +994,7 @@
           <label id="qt_5_3">Perteneces a alguna Asociación Civil, Cámaras Industriales o Colegios Profesionales: </label>
           <div class="res">
             <div>
-              <input class="input_radio" type="radio" name="qt_5_3" id="qt_5_3_r_1" value="Si">
+              <input class="input_radio" type="radio" name="qt_5_3" id="qt_5_3_r_1" value="Si" checked>
               <label for="qt_5_3_r_1">Si</label>
             </div>
   
