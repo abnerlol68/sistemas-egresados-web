@@ -1,0 +1,122 @@
+@use 'normalize';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$cl_first_back: #667fde;
+$cl_second_back: #39bbda;
+$cl_primary: #7b71de;
+$cl_black: #1b202a;
+$cl_black2: #222532;
+$cl_white: #fff;
+$cl_red: #ff0000;
+$cl_border: rgba(50, 56, 61, 0.2);
+
+html {
+  font-size: 62.5%;
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    color: $cl_white;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background: $cl_first_back;
+
+    main {
+      width: inherit;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.hero {
+  background: $cl_black;
+  width: 70%;
+  height: 69%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+
+  figure {
+    display: flex;
+    justify-content: center;
+
+    img {
+      filter: invert(92%);
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  form {
+    margin: 3rem 0;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 2rem 0;
+
+      input {
+        &[type="email"] {
+          width: 100%;
+          color: $cl_white;
+          background: none;
+          border: none;
+          border-bottom: 0.2rem solid $cl_white;
+        }
+
+        &[type="email"]:active {
+          outline: none;
+          border-bottom-color: $cl_primary;
+        }
+
+        &[type="email"]:hover {
+          outline: none;
+          border-bottom-color: $cl_primary;
+        }
+
+        &[type="email"]:focus {
+          outline: none;
+          border-bottom-color: $cl_primary;
+        }
+      }
+    }
+
+    div > * {
+      margin: 0.5rem 0;
+    }
+
+    input {
+      &[type="submit"] {
+        width: 100%;
+        height: 3rem;
+        color: $cl_white;
+        background: $cl_first_back;
+        box-shadow: $cl_border 0px 8px 24px;
+        border: none;
+        border-radius: 1rem;
+        opacity: 0.8;
+      }
+
+      &[type="submit"]:focus {
+        opacity: 1;
+      }
+
+      &[type="submit"]:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.hero > * {
+  width: 70%;
+}
