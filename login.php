@@ -14,10 +14,17 @@
         <img src="./img/user.png" alt="user_icon">
       </figure>
       <h2>Registrate aquí</h2>
-      <form action="" method="POST">
+      <form action="./Controller/login.php" method="POST">
         <div>
           <label for="email">Correo Electrónico</label>
           <input type="email" name="email" id="email" placeholder="" required>
+        </div>
+        <div>
+          <label for="graduate_time">Tiempo de egresado</label>
+          <select name="graduate_time" id="graduate_time" required>
+            <option value="1">Menos de 24 meses</option>
+            <option value="2">Más de 24 meses</option>
+          </select>
         </div>
         <input type="submit" value="Log In">
       </form>
