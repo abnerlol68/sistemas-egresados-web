@@ -6,7 +6,7 @@ USE graduate_forms;
 
 CREATE TABLE graduates (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    email VARCHAR(16) NOT NULL UNIQUE
+    email VARCHAR(64) NOT NULL UNIQUE
 ) ENGINE=INNODB;
 
 CREATE TABLE forms (
