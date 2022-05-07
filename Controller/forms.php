@@ -40,7 +40,7 @@
       }
     }
 
-    header("Location: ../thank_you_message.html");
+    header("Location: ../thank_you_message.php");
     $stm = null;
     $conn = null;
     return;

@@ -1,0 +1,48 @@
+@use 'normalize';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$cl_first_back: #667fde;
+$cl_second_back: #39bbda;
+$cl_primary: #7b71de;
+$cl_black: #1b202a;
+$cl_black2: #222532;
+$cl_white: #fff;
+$cl_red: #ff0000;
+$cl_border: rgba(50, 56, 61, 0.2);
+
+html {
+  font-size: 62.5%;
+
+  body {
+    width: 100vw;
+    height: 100vh;
+    color: $cl_white;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient($cl_first_back, $cl_second_back);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    main {
+      background: $cl_black;
+      width: 70%;
+      height: 69%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 1rem;
+
+      span {
+        font-size: x-large;
+        font-weight: 500;
+      }
+    }
+
+    main > * {
+      margin: 2rem 0;
+    }
+  }
+}

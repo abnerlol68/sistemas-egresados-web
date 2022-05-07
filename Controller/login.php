@@ -14,7 +14,7 @@
       if ($stm->rowCount() >= 1) {
         $stm = null;
         $conn = null;
-        header("Location: ../thank_you_message.html");
+        header("Location: ../thank_you_message.php");
         return;
       }
   
