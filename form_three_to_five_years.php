@@ -1,5 +1,6 @@
 <?php
   session_start();
+  require "partials/redirect_to_login.php";
 ?>
 
 <!DOCTYPE html>
