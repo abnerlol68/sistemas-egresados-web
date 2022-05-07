@@ -19,7 +19,6 @@ html {
   body {
     width: 100vw;
     color: $cl_white;
-    padding: 4rem 0;
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient($cl_first_back, $cl_second_back);
@@ -54,9 +53,14 @@ html {
   width: 58%;
   background: $cl_black;
   border-radius: 1.8rem;
-  padding: 4rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+
+.content_form > * {
+  width: 72%;
 }
 
 .qt {

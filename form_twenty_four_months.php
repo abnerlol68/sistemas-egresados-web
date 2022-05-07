@@ -10,7 +10,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style_form.css">
-  <script defer defer src="./js/form_twenty_four_months.js"></script>
   <title>Encuesta para Egresados a partir de 24 meses, Ingenieria en Sistemas Computacionales</title>
 </head>
 

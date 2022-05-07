@@ -10,7 +10,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/style_form.css">
-  <script defer src="./js/form_three_to_five_years.js"></script>
   <title>Encuesta de Seguimiento de Egresados 3-5 años, Ingeniería en Sistemas Computacionales</title>
 </head>
 
