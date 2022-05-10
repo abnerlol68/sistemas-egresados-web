@@ -34,9 +34,9 @@
       $_SESSION["form"] = $_POST["graduate_time"];
       
       // Depending on the time it is redirected to a form or/to another
-      if ($_POST["graduate_time"] == 1) {
+      if ($_POST["graduate_time"] == "1") {
         header("Location: ../form_twenty_four_months.php");
-      } elseif ($_POST["graduate_time"] == 2) {
+      } elseif ($_POST["graduate_time"] == "2") {
         header("Location: ../form_three_to_five_years.php");
       }
   
