@@ -1,13 +1,11 @@
-#prevenir acceso a los archivos .htaccess
+# Disable Directory listing
+Options -Indexes
 
-<files .htaccess>
+# Access denial for sensitive files
+<Files ~ "\.(env|json|config.js|md|gitignore|gitattributes|lock)$">
+    Order allow,deny
+    Deny from all
+</Files>
 
-order allow,deny
-
-deny from all
-
-</files>
-
-#evitar listado de directorios
-
+# Disable dir listing
 IndexIgnore *
