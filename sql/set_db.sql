@@ -1,8 +1,6 @@
-DROP DATABASE IF EXISTS graduate_forms;
+USE buvplk6ufxfixqhtfpg6;
 
-CREATE DATABASE graduate_forms;
-
-USE graduate_forms;
+DROP TABLE IF EXISTS graduates, forms, questions, implemented_questions, answers;
 
 CREATE TABLE graduates (
     id INT AUTO_INCREMENT PRIMARY KEY,
